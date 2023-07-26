@@ -1,11 +1,11 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, { useRef, useState} from "react";
 import {
   CardNumberElement,
   CardCvcElement,
   CardExpiryElement,
   useStripe,
   useElements,
-  CardElement,CardElementProps
+ 
 } from "@stripe/react-stripe-js";
 import * as axios from "axios";
 
